@@ -13,6 +13,9 @@
         android:theme="@style/Theme.RestauranteApp"
         tools:targetApi="31">
         <activity
+            android:name=".restaurante.ComandaActivity"
+            android:exported="false" />
+        <activity
             android:name=".restaurante.InicioActivity"
             android:exported="true">
             <intent-filter>
